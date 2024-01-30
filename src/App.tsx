@@ -10,7 +10,7 @@ export default function Home() {
     <main className="main">
       <div className="container">
         <div className="header">
-          <div className="connect" style="padding:100px">
+          <div className="connect">
             <ConnectWallet btnTitle="Connect" />
           </div>
         </div>
