@@ -7,12 +7,12 @@ import {
   smartWallet,
 } from "@thirdweb-dev/react";
 import "./styles/globals.css";
-import { GuapcoinX } from "@thirdweb-dev/chains";
+import { Guapcoinx } from "@thirdweb-dev/chains";
 
 // This is the chain your dApp will work on.
 // Change this to the chain your app is built for.
 // You can also import additional chains from `@thirdweb-dev/chains` and pass them directly.
-export const activeChain = GuapcoinX;
+export const activeChain = Guapcoinx;
 
 export const smartWalletConfig = smartWallet(localWallet(), {
   factoryAddress: "0x8e0ebeb0d60dfc644e145790e1fac9b01c9a82cd",
