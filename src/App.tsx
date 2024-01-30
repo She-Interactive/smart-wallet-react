@@ -16,10 +16,7 @@ export default function Home() {
         </div>
        
         <ConnectUI />
-       
         <NFTComponent />
-        <hr className="divider" />
-        <AddMetamask />
       </div>
     </main>
   );
