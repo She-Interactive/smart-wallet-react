@@ -10,18 +10,6 @@ export default function Home() {
     <main className="main">
       <div className="container">
         <div className="header">
-          <h1 className="title">
-            <span className="gradient-text-0">
-              <a
-                href="https://thirdweb.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GuapcoinX Smart Wallet
-              </a>{" "}
-            </span>
-            demo
-          </h1>
           <p>
             Signless + gasless UX using{" "}
             <a href="https://portal.thirdweb.com/wallet/local-wallet">
@@ -52,16 +40,7 @@ export default function Home() {
        
         <NFTComponent />
         <hr className="divider" />
-        <p className="description">
-          You can also add temporary session keys to your smart wallet
-        </p>
-        <AddSigner />
-        <hr className="divider" />
-        <p className="description">
-          You can also add Metamask with <code className="code">{"addAdmin()"}</code> as another admin to your smart wallet
-          </p>
         <AddMetamask />
-        <hr className="divider" />
       </div>
     </main>
   );
