@@ -17,7 +17,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Smart Wallets
+                GuapcoinX Smart Wallet
               </a>{" "}
             </span>
             demo
@@ -49,12 +49,7 @@ export default function Home() {
           </p>
         </div>
         <ConnectUI />
-        <hr className="divider" />
-        <p className="description">
-          Then use the React SDK to execute transactions.
-          <br />
-          No gas cost or signature required!
-        </p>
+       
         <NFTComponent />
         <hr className="divider" />
         <p className="description">
