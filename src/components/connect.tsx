@@ -1,4 +1,4 @@
-import { Goerli } from "@thirdweb-dev/chains";
+import { Guapcoinx } from "@thirdweb-dev/chains";
 import {
   useAddress,
   useConnect,
@@ -22,7 +22,7 @@ export const ConnectUI = () => {
     setError("");
     try {
       const personalWallet = new LocalWallet({
-        chain: Goerli,
+        chain: Guapcoinx,
       });
       await personalWallet.loadOrCreate({
         strategy: "encryptedJson",
