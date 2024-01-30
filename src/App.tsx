@@ -10,13 +10,10 @@ export default function Home() {
     <main className="main">
       <div className="container">
         <div className="header">
-          <div className="connect">
+          <div className="connect" style="padding:100px">
             <ConnectWallet btnTitle="Connect" />
           </div>
         </div>
-       
-        <ConnectUI />
-        <NFTComponent />
       </div>
     </main>
   );
