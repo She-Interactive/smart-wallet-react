@@ -15,7 +15,7 @@ import { Guapcoinx } from "@thirdweb-dev/chains";
 export const activeChain = Guapcoinx;
 
 export const smartWalletConfig = smartWallet(localWallet(), {
-  factoryAddress: "0x8e0ebeb0d60dfc644e145790e1fac9b01c9a82cd",
+  factoryAddress: "0xF652De8049CF1e7cb4a36087a24654C63906A6B3",
   gasless: true,
 });
 
